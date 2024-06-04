@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 50px;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(255, 255, 255);
+}
+li {
+    list-style-type: none;
+    margin: 2px 0 2px 10px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+}
+div {
+    flex-direction: column;
+    display: flex;
+    width: 70%;
+}
+ul {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-family: cursive;
+}
+.list {
+    display: block;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 13, 16);
+    background-image: url(./Imagens/WhatsApp\ Image\ 2024-06-03\ at\ 13.54.35.jpeg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+.background1 {
+    position: fixed;
+    top: 0;
+    left: 150px;
+    width: 60%;
+    right: 150px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.h3tipo{
+    position: relative; left: -250px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #d4582b;;
+}
+.nav {
+    border: solid 1px orange;
+    background-color: rgba(151, 151, 151, 0.5);
+    position: fixed;
+    left: 26%;
+    top:-10px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+nav ul li a {
+    color: white;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.footercardapio {
+    border-top: solid 1px orange;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 60%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footercardapio h1 {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.h4quemsomos {
+    position: relative; left: -30%;
+}
+.h4contato{ 
+    position: relative; bottom: 18px; 
+}
+.h4home{
+    position: relative; left: 30%; bottom: 36px;
+}
+
+@media (max-width: 768px) {
+    .background1 {
+        position: fixed;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    right: 150px;
+    height: 100%;
+    }
+    .h4quemsomos {
+        position: relative; left: -30%;
+    }
+    .h4contato{ 
+        position: relative; bottom: 18px; 
+    }
+    .h4home{
+        position: relative; left: 30%; bottom: 36px;
+    }
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .nav ul li {
+        padding: 10px 0;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+    
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .list ul {
+        padding-left: 10px;
+    }
+
+    .list li {
+        padding-left: 10px;
+    }
+
+    .h3tipo {
+        position: relative; left: 5%;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .background1 {
+        position: fixed;
+    top: 0;
+    left: 20%;
+    width: 60%;
+    right: 150px;
+    height: 100%;
+
+    }
+    .h4quemsomos {
+        position: relative; left: -40%;
+    }
+    .h4contato{ 
+        position: relative;left: 10%; bottom: 18px; 
+    }
+    .h4home{
+        position: relative; left: 40%; bottom: 36px;
+    }
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul li {
+        padding-left: 0;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .list ul {
+        padding-left: 5px;
+    }
+
+    .list li {
+        padding-left: 5px;
+    }
+
+    .h3tipo {
+        font-size: 18px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+    .obrigado{
+        font-size: 20px;
+    }
+}
