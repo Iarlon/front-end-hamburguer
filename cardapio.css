@@ -15,7 +15,7 @@ html {
     padding-bottom: 10px;
     font-size: 50px;
     font-family: 'Brush Script MT', cursive;
-    color: rgb(255, 255, 255);
+    color: #ff4500;
 }
 li {
     list-style-type: none;
@@ -61,14 +61,13 @@ body {
     z-index: -1;
 }
 .h3tipo{
-    position: relative; left: -250px;
     font-size: 30px;
     margin-bottom: 30px;
     margin-top: 30px;
-    color: #d4582b;;
+    color: #ff4500;
 }
 .nav {
-    border: solid 1px orange;
+    border: solid 2px #ff4500;
     background-color: rgba(151, 151, 151, 0.5);
     position: fixed;
     left: 30%;
@@ -97,10 +96,11 @@ a:visited {
 a:hover {
     background-color: rgba(0, 0, 0, 0.3);
     color: rgba(0, 0, 0, 0.9);
+    transform: translateY(-2px);
 }
 
 .footercardapio {
-    border-top: solid 1px orange;
+    border-top: solid 2px #ff4500;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     width: 60%;
@@ -130,11 +130,8 @@ a:hover {
 .h4quemsomos {
     position: relative; left: -30%;
 }
-.h4contato{ 
-    position: relative; bottom: 18px; 
-}
 .h4home{
-    position: relative; left: 30%; bottom: 36px;
+    position: relative; left: 30%; bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -149,11 +146,8 @@ a:hover {
     .h4quemsomos {
         position: relative; left: -30%;
     }
-    .h4contato{ 
-        position: relative; bottom: 18px; 
-    }
     .h4home{
-        position: relative; left: 30%; bottom: 36px;
+        position: relative; left: 30%; bottom: 18px;
     }
     .nav ul {
         flex-direction: column;
@@ -205,11 +199,8 @@ a:hover {
     .h4quemsomos {
         position: relative; left: -40%;
     }
-    .h4contato{ 
-        position: relative;left: 10%; bottom: 18px; 
-    }
     .h4home{
-        position: relative; left: 40%; bottom: 36px;
+        position: relative; left: 40%; bottom: 18px;
     }
     .nav ul {
         flex-direction: column;

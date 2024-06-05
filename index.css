@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 50px;
+    }
+    .myway {
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+    color: #ff4400;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        background-image: url('image/backgroundmyway.webp'); 
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: auto;
+        color: white;
+        overflow-y: scroll;
+    }
+    header {
+        background-color: rgba(58, 58, 58, 0.5);
+        color: #ffffff;
+        padding: 1em 0;
+        text-align: center;
+    }
+    nav {
+        padding: 1em;
+        text-align: center;
+        background-color: rgba(58, 58, 58, 0.5);
+        border-bottom: 2px solid #ff4500;
+    }
+    a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    a:visited {
+        color: #ffffff;
+    }
+    a:hover {
+        transform: translateY(-2px);
+        background-color: rgba(0, 0, 0, 0.3);
+        color: rgba(255, 255, 255, 0.9);
+    }
+    nav a {
+        color: #ffffff;
+        margin: 0 1em;
+        text-decoration: none;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin: 2em auto;
+        border-radius: 10px;
+        max-width: 900px;
+    }
+    .intro, .drinks, .petiscos {
+        flex: 1;
+        margin-right: 2em;
+    }
+    .intro h1, .drinks h1, .petiscos h1 {
+        font-size: 2.5em;
+        margin-bottom: 0.5em;
+        color: #ff4500;
+        text-align: left;
+    }
+    .intro p, .drinks p, .petiscos p {
+        font-size: 1.2em;
+        line-height: 1.6;
+        text-align: left;
+    }
+    .image {
+        flex: 1;
+    }
+    .image img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+        border-top: 2px solid #ff4500;
+    }
