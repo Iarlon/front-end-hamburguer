@@ -20,15 +20,16 @@ html {
         overflow-y: scroll;
     }
     header {
-        background-color: rgba(58, 58, 58, 0.5);
+        background-color: rgba(0, 0, 0, 0.8);
         color: #ffffff;
         padding: 1em 0;
         text-align: center;
+        border-bottom: 2px solid #ff4500;
     }
     nav {
         padding: 1em;
         text-align: center;
-        background-color: rgba(58, 58, 58, 0.5);
+        background-color: rgba(0, 0, 0, 0.8);
         border-bottom: 2px solid #ff4500;
     }
     a:link {
